@@ -265,7 +265,7 @@ ion-icon {
 
 /*  MEDIA QUERIES*/
 
-@media all and (max-width:1000px) {
+/* @media all and (max-width:1000px) {
   
   html {font-size: 75%;}
   
@@ -346,4 +346,4 @@ ion-icon {
 @media all and (max-width:375px) {
  html {
    font-size: 50%;}
- }
+ } */
