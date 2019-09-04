@@ -145,7 +145,7 @@ body {
 
 .main--img {
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .main--text {
@@ -263,87 +263,3 @@ ion-icon {
   text-decoration: underline;
 }
 
-/*  MEDIA QUERIES*/
-
-/* @media all and (max-width:1000px) {
-  
-  html {font-size: 75%;}
-  
-  .container {
-    flex-direction: column;
-    padding: 3.1rem;
-  }
-
-  .col1 {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-  }
-
-  .heading {
-   font-size: 3rem;
-  }
-
-  .flex-nav {
-    padding: 2rem;
-  }
-
-  .col p {
-    font-size: 1.8rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-    padding: 0 2rem;
-  }
-
-  .btn {
-    font-size: 1.5rem;
-  }
-
-  .main__container {
-    flex-direction: column;
-  }
-}
-  
-
-@media all and (max-width:500px) {
-  
-  html {font-size: 55%;}
-
-  .container {
-    flex-direction: column;
-    padding: 3.1rem;
-  }
-
-  .col1 {
-    flex: 1;
-    padding-right: 0px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 1rem;
-  }
-
-  .col2 {
-    flex: 1;
-  }
-
-  .flex-nav {
-    padding: 2rem;
-  }
-
-  .col p {
-    font-size: 1.8rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-    padding: 0 1rem;
-  }
-
-  
-
-}
-
-@media all and (max-width:375px) {
- html {
-   font-size: 50%;}
- } */
