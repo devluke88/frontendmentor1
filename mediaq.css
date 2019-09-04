@@ -9,6 +9,10 @@
     padding: 3.1rem;
   }
 
+  .col {
+    margin: 2rem 0;
+  }
+
   .col1 {
     text-align: center;
     align-items: center;
@@ -29,6 +33,7 @@
     font-weight: 400;
     margin-bottom: 1rem;
     padding: 0 2rem;
+    margin-bottom: 4rem;
   }
 
   .btn {
@@ -38,6 +43,16 @@
   .main__container {
     flex-direction: column;
   }
+
+  .col--text {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .footer__cta {
+    top: -15%;
+  }
+
 }
   
 
@@ -71,14 +86,31 @@
     font-size: 1.8rem;
     font-weight: 400;
     margin-bottom: 1rem;
-    padding: 0 1rem;
+    padding: 0 2rem;
+    margin-bottom: 4rem;
   }
 
-  
+  .main__container {
+    margin: 6rem 1rem;
+  }
+
+  .footer__cta {
+    top: -12%;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+  }
 
 }
 
 @media all and (max-width:375px) {
  html {
    font-size: 50%;}
- }
+ 
+   .footer_cta {
+     top: -150%;
+   }
+ 
+  }
