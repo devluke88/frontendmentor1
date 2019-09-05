@@ -157,6 +157,7 @@ body {
   margin-bottom: 1rem;
 }
 
+/*FOOTER SECTION*/
 #footer {
   position: relative;
   color: #fff;
@@ -191,18 +192,14 @@ body {
   max-width: 1440px;
   padding: 4rem;
   margin: 0 auto;
-  
   padding-top: 10rem;
 }
-
 
 .footer--grid {
   flex: 1;
   margin: 1rem;
   align-items: flex-start;
 }
-
-
 
 .row {
   max-width: 1440px;
@@ -211,6 +208,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 .social__icons {
@@ -261,5 +259,9 @@ ion-icon {
 
 .footer-link:hover, .footer-link:active {
   text-decoration: underline;
+}
+
+#footer {
+  height: auto;
 }
 
